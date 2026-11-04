@@ -1,0 +1,25 @@
+# Python temporary files
+__pycache__/
+*.py[cod]
+
+# Conda and environment files
+.conda/
+venv/
+.env
+
+# IQ-TREE intermediate files
+*.ckp.gz
+*.ufboot
+*.mldist
+*.splits.nex
+*.bionj
+*.model.gz
+
+# Temporary test files
+14_test_files/
+
+# Duplicate project archive
+ATP7B_Final_Project_Results.zip
+
+# OS files
+.DS_Store

@@ -1,0 +1,18 @@
+ATP7B EVOLUTIONARY ANALYSIS
+==========================
+
+Python:
+Python 3.11.15
+
+Biopython:
+1.88
+
+MAFFT:
+v7.505 (2022/Apr/10)
+
+IQ-TREE:
+IQ-TREE version 3.1.3 for Linux x86 64-bit built Jul 26 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+
+HyPhy:
+HYPHY 2.5.103(MP) for Linux on x86_64 x86 SSE4 SIMD zlib (v1.3.2)

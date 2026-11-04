@@ -1,0 +1,175 @@
+species	taxon_id	gene_id	expected_protein_id	transcript_id	protein_length	cds_length	cds_divisible_by_3	translation_matches_protein	internal_stop	qc_status	error
+pan_paniscus	9597	ENSPPAG00000033929	ENSPPAP00000021635	ENSPPAT00000044438	1455	4368	True	True	False	PASS	
+pongo_abelii	9601	ENSPPYG00000005385	ENSPPYP00000040034	ENSPPYT00000047701	1472	4419	True	True	False	PASS	
+pan_troglodytes	9598	ENSPTRG00000005897	ENSPTRP00000010023	ENSPTRT00000010828	1465	4398	True	True	False	PASS	
+nomascus_leucogenys	61853	ENSNLEG00000003952	ENSNLEP00000045526	ENSNLET00000051404	1420	4263	True	True	False	PASS	
+ornithorhynchus_anatinus	9258	ENSOANG00000015525	ENSOANP00000024458							FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/lookup/id/ENSOANG00000015525?expand=1
+gorilla_gorilla	9595	ENSGGOG00000015975	ENSGGOP00000015590	ENSGGOT00000016038						FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/sequence/id/ENSGGOT00000016038?type=cds
+notamacropus_eugenii	9315	ENSMEUG00000012249	ENSMEUP00000011187	ENSMEUT00000012306	1405	4218	True	True	False	PASS	
+dasypus_novemcinctus	9361	ENSDNOG00000008233	ENSDNOP00000006385							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSDNOG00000008233?expand=1
+erinaceus_europaeus	9365	ENSEEUG00000005370	ENSEEUP00000004915	ENSEEUT00000005401	1321	3963	True	True	False	PASS	
+echinops_telfairi	9371	ENSETEG00000018683	ENSETEP00000015180	ENSETET00000018684	1429	4290	True	True	False	PASS	
+callithrix_jacchus	9483	ENSCJAG00000008347	ENSCJAP00000015472	ENSCJAT00000016346	1529	4590	True	True	False	PASS	
+cercocebus_atys	9531	ENSCATG00000030576	ENSCATP00000013181	ENSCATT00000037318						FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/sequence/id/ENSCATT00000037318?type=cds
+macaca_fascicularis	9541	ENSMFAG00000001355	ENSMFAP00000003805							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSMFAG00000001355?expand=1
+macaca_nemestrina	9545	ENSMNEG00000030359	ENSMNEP00000012748	ENSMNET00000036946	1465	4398	True	True	False	PASS	
+macaca_mulatta	9544	ENSMMUG00000016520	ENSMMUP00000056345	ENSMMUT00000068925	1531	4596	True	True	False	PASS	
+papio_anubis	9555	ENSPANG00000025938	ENSPANP00000005895	ENSPANT00000003007	1608	4827	True	True	False	PASS	
+mandrillus_leucophaeus	9568	ENSMLEG00000041225	ENSMLEP00000034492							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSMLEG00000041225?expand=1
+ailuropoda_melanoleuca	9646	ENSAMEG00000011878	ENSAMEP00000012531							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSAMEG00000011878?expand=1
+panthera_leo	9689	ENSPLOG00000005786	ENSPLOP00000008851	ENSPLOT00000009806						FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/sequence/id/ENSPLOT00000009806?type=protein
+ursus_americanus	9643	ENSUAMG00000014306	ENSUAMP00000018011							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSUAMG00000014306?expand=1
+cricetulus_griseus_picr	10029	ENSCGRG00015022066	ENSCGRP00015054363	ENSCGRT00015078002	1523	4572	True	True	False	PASS	
+equus_asinus	9793	ENSEASG00005017471	ENSEASP00005026083							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSEASG00005017471?expand=1
+balaenoptera_musculus	9771	ENSBMSG00010020500	ENSBMSP00010028841	ENSBMST00010031756	1433	4302	True	False		FAIL	Translated CDS does not match protein
+sus_scrofa	9823	ENSSSCG00000033570	ENSSSCP00000040070	ENSSSCT00000057665	1032	3099	True	True	False	PASS	
+mustela_putorius_furo	9669	ENSMPUG00000018001	ENSMPUP00000017890	ENSMPUT00000018151	1495	4488	True	True	False	PASS	
+heterocephalus_glaber_female	10181	ENSHGLG00000010526	ENSHGLP00000014720							FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/lookup/id/ENSHGLG00000010526?expand=1
+vicugna_pacos	30538	ENSVPAG00000007080	ENSVPAP00000006587	ENSVPAT00000007080						FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/sequence/id/ENSVPAT00000007080?type=protein
+sorex_araneus	42254	ENSSARG00000007363	ENSSARP00000006773							FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/lookup/id/ENSSARG00000007363?expand=1
+mesocricetus_auratus	10036	ENSMAUG00000016856	ENSMAUP00000018286							FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/lookup/id/ENSMAUG00000016856?expand=1
+mus_spicilegus	10103	ENSMSIG00000022818	ENSMSIP00000027079							FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/lookup/id/ENSMSIG00000022818?expand=1
+bos_taurus	9913	ENSBTAG00000010353	ENSBTAP00000013674							FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/lookup/id/ENSBTAG00000010353?expand=1
+camelus_dromedarius	9838	ENSCDRG00005021611	ENSCDRP00005031690	ENSCDRT00005034869	1618	4857	True	True	False	PASS	
+tursiops_truncatus	9739	ENSTTRG00000011988	ENSTTRP00000011369							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSTTRG00000011988?expand=1
+jaculus_jaculus	51337	ENSJJAG00000020723	ENSJJAP00000019941							FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/lookup/id/ENSJJAG00000020723?expand=1
+procavia_capensis	9813	ENSPCAG00000002633	ENSPCAP00000002518	ENSPCAT00000002668	1028	3087	True	True	False	PASS	
+equus_caballus	9796	ENSECAG00000019943	ENSECAP00000038494							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSECAG00000019943?expand=1
+marmota_marmota_marmota	9994	ENSMMMG00000022883	ENSMMMP00000026137	ENSMMMT00000029577	1353	4062	True	True	False	PASS	
+mus_spretus	10096	ENSMSPG00010013352	ENSMSPP00010014391	ENSMSPT00010025946	1462	4389	True	True	False	PASS	
+ochotona_princeps	9978	ENSOPRG00000013414	ENSOPRP00000012256	ENSOPRT00000013428	1448	4347	True	True	False	PASS	
+vombatus_ursinus	29139	ENSVURG00010017621	ENSVURP00010023200	ENSVURT00010026399	1364	4095	True	True	False	PASS	
+ictidomys_tridecemlineatus	43179	ENSSTOG00000016267	ENSSTOP00000014566	ENSSTOT00000016269						FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/sequence/id/ENSSTOT00000016269?type=protein
+capra_hircus	9925	ENSCHIG00000024048	ENSCHIP00000028658	ENSCHIT00000036527						FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/sequence/id/ENSCHIT00000036527?type=protein
+rattus_norvegicus	10116	ENSRNOG00000012878	ENSRNOP00000069905	ENSRNOT00000089265						FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/sequence/id/ENSRNOT00000089265?type=cds
+urocitellus_parryii	9999	ENSUPAG00010001039	ENSUPAP00010001300							FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/lookup/id/ENSUPAG00010001039?expand=1
+loxodonta_africana	9785	ENSLAFG00000012459	ENSLAFP00000010415	ENSLAFT00000012463	1465	4398	True	True	False	PASS	
+microtus_ochrogaster	79684	ENSMOCG00000017676	ENSMOCP00000019809							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSMOCG00000017676?expand=1
+mus_musculus	10090	ENSMUSG00000006567	ENSMUSP00000006742	ENSMUST00000006742	1462	4389	True	True	False	PASS	
+moschus_moschiferus	68415	ENSMMSG00000015217	ENSMMSP00000020245	ENSMMST00000022334						FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/sequence/id/ENSMMST00000022334?type=cds
+tupaia_belangeri	37347	ENSTBEG00000003708	ENSTBEP00000003248							FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/lookup/id/ENSTBEG00000003708?expand=1
+bos_grunniens	30521	ENSBGRG00000014876	ENSBGRP00000023760							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSBGRG00000014876?expand=1
+rhinopithecus_roxellana	61622	ENSRROG00000033176	ENSRROP00000018321							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSRROG00000033176?expand=1
+mus_caroli	10089	MGP_CAROLIEiJ_G0030891	MGP_CAROLIEiJ_P0083931							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/MGP_CAROLIEiJ_G0030891?expand=1
+neovison_vison	452646	ENSNVIG00000012313	ENSNVIP00000015677							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSNVIG00000012313?expand=1
+chinchilla_lanigera	34839	ENSCLAG00000004851	ENSCLAP00000006888	ENSCLAT00000007000						FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/sequence/id/ENSCLAT00000007000?type=protein
+cebus_imitator	2715852	ENSCCAG00000032531	ENSCCAP00000029434							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSCCAG00000032531?expand=1
+sciurus_vulgaris	55149	ENSSVLG00005003352	ENSSVLP00005004229	ENSSVLT00005004650						FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/sequence/id/ENSSVLT00005004650?type=cds
+panthera_tigris_altaica	74533	ENSPTIG00000009813	ENSPTIP00000008942	ENSPTIT00000012844						FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/sequence/id/ENSPTIT00000012844?type=cds
+panthera_pardus	9691	ENSPPRG00000003808	ENSPPRP00000008749							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSPPRG00000003808?expand=1
+cervus_hanglu_yarkandensis	84702	ENSCHYG00000017807	ENSCHYP00000027090							FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/lookup/id/ENSCHYG00000017807?expand=1
+phascolarctos_cinereus	38626	ENSPCIG00000007182	ENSPCIP00000008686	ENSPCIT00000010968						FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/sequence/id/ENSPCIT00000010968?type=protein
+catagonus_wagneri	51154	ENSCWAG00000002765	ENSCWAP00000005111							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSCWAG00000002765?expand=1
+nannospalax_galili	1026970	ENSNGAG00000004775	ENSNGAP00000003948	ENSNGAT00000006065	1456	4371	True	True	False	PASS	
+ovis_aries	9940	ENSOARG00020058889	ENSOARP00020099377	ENSOART00020130988						FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/sequence/id/ENSOART00020130988?type=cds
+rhinolophus_ferrumequinum	59479	ENSRFEG00010019450	ENSRFEP00010029278	ENSRFET00010031775	1530	4593	True	True	False	PASS	
+propithecus_coquereli	379532	ENSPCOG00000020764	ENSPCOP00000017855	ENSPCOT00000028494						FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/sequence/id/ENSPCOT00000028494?type=protein
+octodon_degus	10160	ENSODEG00000007053	ENSODEP00000009411							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSODEG00000007053?expand=1
+canis_lupus_familiaris	9615	ENSCAFG00845020988	ENSCAFP00845029106							FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/lookup/id/ENSCAFG00845020988?expand=1
+delphinapterus_leucas	9749	ENSDLEG00000017142	ENSDLEP00000023641	ENSDLET00000026005	1462	4389	True	True	False	PASS	
+cavia_porcellus	10141	ENSCPOG00000001644	ENSCPOP00000001483	ENSCPOT00000001665	1422	4269	True	True	False	PASS	
+rhinopithecus_bieti	61621	ENSRBIG00000029911	ENSRBIP00000012042	ENSRBIT00000035731						FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/sequence/id/ENSRBIT00000035731?type=protein
+bos_indicus_hybrid	30522	ENSBIXG00005006033	ENSBIXP00005037632	ENSBIXT00005026770						FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/sequence/id/ENSBIXT00005026770?type=cds
+pteropus_vampyrus	132908	ENSPVAG00000009649	ENSPVAP00000009096	ENSPVAT00000009650	1458	4377	True	True	False	PASS	
+felis_catus	9685	ENSFCTG00005027412	ENSFCTP00005054420	ENSFCTT00005077866						FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/sequence/id/ENSFCTT00005077866?type=cds
+peromyscus_maniculatus_bairdii	230844	ENSPEMG00000018408	ENSPEMP00000020476							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSPEMG00000018408?expand=1
+canis_lupus_dingo	286419	ENSCAFG00020000436	ENSCAFP00020000624	ENSCAFT00020000769	1422	4269	True	True	False	PASS	
+saimiri_boliviensis_boliviensis	39432	ENSSBOG00000019143	ENSSBOP00000005266	ENSSBOT00000021881	1465	4398	True	True	False	PASS	
+otolemur_garnettii	30611	ENSOGAG00000006683	ENSOGAP00000005981	ENSOGAT00000006688	1444	4335	True	True	False	PASS	
+myotis_lucifugus	59463	ENSMLUG00000012070	ENSMLUP00000011007							FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/lookup/id/ENSMLUG00000012070?expand=1
+dipodomys_ordii	10020	ENSDORG00000004173	ENSDORP00000003898							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSDORG00000004173?expand=1
+bison_bison_bison	43346	ENSBBBG00000015472	ENSBBBP00000021845	ENSBBBT00000002496						FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/sequence/id/ENSBBBT00000002496?type=protein
+monodon_monoceros	40151	ENSMMNG00015016871	ENSMMNP00015023068	ENSMMNT00015025350	1503	4512	True	True	False	PASS	
+chlorocebus_sabaeus	60711	ENSCSAG00000017684	ENSCSAP00000013708							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSCSAG00000017684?expand=1
+mus_pahari	10093	MGP_PahariEiJ_G0021355	MGP_PahariEiJ_P0046813	MGP_PahariEiJ_T0046813	1468	4404	True	True	False	PASS	
+aotus_nancymaae	37293	ENSANAG00000020156	ENSANAP00000004474	ENSANAT00000022229	1463	4392	True	True	False	PASS	
+microcebus_murinus	30608	ENSMICG00000005249	ENSMICP00000021513	ENSMICT00000030549	1461	4386	True	True	False	PASS	
+oryctolagus_cuniculus	9986	ENSOCUG00000004145	ENSOCUP00000043559	ENSOCUT00000041788	1465	4398	True	True	False	PASS	
+phocoena_sinus	42100	ENSPSNG00000022290	ENSPSNP00000030870							FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/lookup/id/ENSPSNG00000022290?expand=1
+monodelphis_domestica	13616	ENSMODG00000010500	ENSMODP00000033101	ENSMODT00000034679	1479	4440	True	True	False	PASS	
+prolemur_simus	1328070	ENSPSMG00000004440	ENSPSMP00000005881							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSPSMG00000004440?expand=1
+bos_mutus	72004	ENSBMUG00000007121	ENSBMUP00000009141	ENSBMUT00000010651	1343	4032	True	True	False	PASS	
+ursus_maritimus	29073	ENSUMAG00000019037	ENSUMAP00000026459	ENSUMAT00000031320	1512	4539	True	True	False	PASS	
+drosophila_melanogaster	7227	FBgn0030343	FBpp0306530							FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/lookup/id/FBgn0030343?expand=1
+ciona_intestinalis	7719	ENSCING00000007245	ENSCINP00000014894	ENSCINT00000014894						FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/sequence/id/ENSCINT00000014894?type=protein
+petromyzon_marinus	7757	ENSPMAG00000002031	ENSPMAP00000002219	ENSPMAT00000002230						FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/sequence/id/ENSPMAT00000002230?type=protein
+eptatretus_burgeri	7764	ENSEBUG00000005333	ENSEBUP00000008238	ENSEBUT00000008734	885	2658	True	True	False	PASS	
+callorhinchus_milii	7868	ENSCMIG00000018356	ENSCMIP00000044424	ENSCMIT00000045063	1553	4662	True	True	False	PASS	
+latimeria_chalumnae	7897	ENSLACG00000005652	ENSLACP00000006369	ENSLACT00000006422	1431	4293	True	True	False	PASS	
+lepisosteus_oculatus	7918	ENSLOCG00000010371	ENSLOCP00000012719	ENSLOCT00000012743	1307	3924	True	False		FAIL	Translated CDS does not match protein
+clupea_harengus	7950	ENSCHAG00020023141	ENSCHAP00020055138	ENSCHAT00020059176	1431	4296	True	True	False	PASS	
+danio_rerio	7955	ENSDARG00000058145	ENSDARP00000126297	ENSDART00000150998	1363	4092	True	True	False	PASS	
+astyanax_mexicanus	7994	ENSAMXG00000004971	ENSAMXP00000005103	ENSAMXT00000005103	1195	3588	True	True	False	PASS	
+ictalurus_punctatus	7998	ENSIPUG00015011345	ENSIPUP00015020926	ENSIPUT00015026378	1459	4380	True	True	False	PASS	
+esox_lucius	8010	ENSELUG00000001889	ENSELUP00000060309							FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/lookup/id/ENSELUG00000001889?expand=1
+electrophorus_electricus	8005	ENSEEEG00000008974	ENSEEEP00000018265							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSEEEG00000008974?expand=1
+oncorhynchus_kisutch	8019	ENSOKIG00005046428	ENSOKIP00005110716							FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/lookup/id/ENSOKIG00005046428?expand=1
+gadus_morhua	8049	ENSGMOG00000005279	ENSGMOP00000064343							FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/lookup/id/ENSGMOG00000005279?expand=1
+fundulus_heteroclitus	8078	ENSFHEG00000016584	ENSFHEP00000030979							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSFHEG00000016584?expand=1
+poecilia_reticulata	8081	ENSPREG00000015767	ENSPREP00000023366	ENSPRET00000023605	1315	3948	True	True	False	PASS	
+xiphophorus_maculatus	8083	ENSXMAG00000008157	ENSXMAP00000008191							FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/lookup/id/ENSXMAG00000008157?expand=1
+cyclopterus_lumpus	8103	ENSCLMG00005004095	ENSCLMP00005008307	ENSCLMT00005009103						FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/sequence/id/ENSCLMT00005009103?type=protein
+oryzias_latipes	8090	ENSORLG00000000063	ENSORLP00000000076							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSORLG00000000063?expand=1
+haplochromis_burtoni	8153	ENSHBUG00000012184	ENSHBUP00000028419							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSHBUG00000012184?expand=1
+oreochromis_niloticus	8128	ENSONIG00000012121	ENSONIP00000047349	ENSONIT00000058940	1389	4170	True	True	False	PASS	
+astatotilapia_calliptera	8154	ENSACLG00000011489	ENSACLP00000016868	ENSACLT00000017278	1340	4023	True	True	False	PASS	
+sparus_aurata	8175	ENSSAUG00010025265	ENSSAUP00010064930							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSSAUG00010025265?expand=1
+lates_calcarifer	8187	ENSLCAG00010010607	ENSLCAP00010023921	ENSLCAT00010024442	1355	4068	True	True	False	PASS	
+chrysemys_picta_bellii	8478	ENSCPBG00000000294	ENSCPBP00000000325							FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/lookup/id/ENSCPBG00000000294?expand=1
+crocodylus_porosus	8502	ENSCPRG00005002668	ENSCPRP00005004438	ENSCPRT00005005211	1465	4398	True	True	False	PASS	
+sphenodon_punctatus	8508	ENSSPUG00000009239	ENSSPUP00000012310							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSSPUG00000009239?expand=1
+xenopus_tropicalis	8364	ENSXETG00000020713	ENSXETP00000066457	ENSXETT00000075259	1503	4512	True	True	False	PASS	
+laticauda_laticaudata	8630	ENSLLTG00000014916	ENSLLTP00000019863	ENSLLTT00000020600	1427	4284	True	True	False	PASS	
+anas_platyrhynchos_platyrhynchos	8840	ENSAPLG00000006302	ENSAPLP00000005964	ENSAPLT00000006600	1385	4158	True	True	False	PASS	
+pseudonaja_textilis	8673	ENSPTXG00000005856	ENSPTXP00000008251	ENSPTXT00000008540	1435	4308	True	True	False	PASS	
+gallus_gallus	9031	ENSGALG00010002435	ENSGALP00010003449	ENSGALT00010005610						FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/sequence/id/ENSGALT00010005610?type=protein
+meleagris_gallopavo	9103	ENSMGAG00000015031	ENSMGAP00000033611							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSMGAG00000015031?expand=1
+serinus_canaria	9135	ENSSCAG00000012940	ENSSCAP00000017852							FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/lookup/id/ENSSCAG00000012940?expand=1
+parus_major	9157	ENSPMJG00000014962	ENSPMJP00000020036	ENSPMJT00000026146	1558	4677	True	True	False	PASS	
+ciona_savignyi	51511	ENSCSAVG00000007931	ENSCSAVP00000013525	ENSCSAVT00000013681	1325	3978	True	True	False	PASS	
+naja_naja	35670	ENSNNAG00000009802	ENSNNAP00000014555	ENSNNAT00000015258	1482	4449	True	True	False	PASS	
+neolamprologus_brichardi	32507	ENSNBRG00000016446	ENSNBRP00000021503							FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/lookup/id/ENSNBRG00000016446?expand=1
+gasterosteus_aculeatus	481459	ENSGACG00000014945	ENSGACP00000019725	ENSGACT00000019763	1293	3882	True	True	False	PASS	
+anser_brachyrhynchus	132585	ENSABRG00000005153	ENSABRP00000005923	ENSABRT00000008528	1452	4359	True	True	False	PASS	
+denticeps_clupeoides	299321	ENSDCDG00010016892	ENSDCDP00010027201	ENSDCDT00010033676	1372	4119	True	True	False	PASS	
+pygocentrus_nattereri	42514	ENSPNAG00000018792	ENSPNAP00000069670	ENSPNAT00000062378	1468	4407	True	True	False	PASS	
+amphiprion_ocellaris	80972	ENSAOCG00000001045	ENSAOCP00000010720	ENSAOCT00000017868	1327	3984	True	True	False	PASS	
+taeniopygia_guttata	59729	ENSTGUG00000012069	ENSTGUP00000012431	ENSTGUT00000012569	1530	4593	True	True	False	PASS	
+oryzias_sinensis	183150	ENSOSIG00000023702	ENSOSIP00000051058	ENSOSIT00000053613	1309	3930	True	True	False	PASS	
+anolis_carolinensis	28377	ENSACAG00000016831	ENSACAP00000016613	ENSACAT00000016940	1481	4446	True	True	False	PASS	
+xiphophorus_couchianus	32473	ENSXCOG00000020479	ENSXCOP00000027421	ENSXCOT00000027754	258	777	True	True	False	PASS	
+leptobrachium_leishanense	445787	ENSLLEG00000002348	ENSLLEP00000003710							FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/lookup/id/ENSLLEG00000002348?expand=1
+stegastes_partitus	144197	ENSSPAG00000023357	ENSSPAP00000031159							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSSPAG00000023357?expand=1
+scophthalmus_maximus	52904	ENSSMAG00000011898	ENSSMAP00000062154							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSSMAG00000011898?expand=1
+pelodiscus_sinensis	13735	ENSPSIG00000003677	ENSPSIP00000003893							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSPSIG00000003677?expand=1
+dicentrarchus_labrax	13489	ENSDLAG00005026064	ENSDLAP00005062781	ENSDLAT00005066428						FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/sequence/id/ENSDLAT00005066428?type=cds
+coturnix_japonica	93934	ENSCJPG00005019811	ENSCJPP00005025207	ENSCJPT00005034320						FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/sequence/id/ENSCJPT00005034320?type=protein
+cottoperca_gobio	56716	ENSCGOG00000014706	ENSCGOP00000036012							FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/lookup/id/ENSCGOG00000014706?expand=1
+seriola_dumerili	41447	ENSSDUG00000011556	ENSSDUP00000015867	ENSSDUT00000016155						FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/sequence/id/ENSSDUT00000016155?type=protein
+amphiprion_percula	161767	ENSAPEG00000008040	ENSAPEP00000011313							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSAPEG00000008040?expand=1
+mastacembelus_armatus	205130	ENSMAMG00000022334	ENSMAMP00000033181							FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/lookup/id/ENSMAMG00000022334?expand=1
+oryzias_javanicus	123683	ENSOJAG00000022389	ENSOJAP00000046854							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSOJAG00000022389?expand=1
+seriola_lalandi_dorsalis	1841481	ENSSLDG00000008579	ENSSLDP00000010772	ENSSLDT00000011166	1342	4029	True	True	False	PASS	
+pundamilia_nyererei	303518	ENSPNYG00000012269	ENSPNYP00000016222	ENSPNYT00000016629	1294	3885	True	True	False	PASS	
+scleropages_formosus	113540	ENSSFOG00015002792	ENSSFOP00015039450	ENSSFOT00015038721	1483	4452	True	True	False	PASS	
+struthio_camelus_australis	441894	ENSSCUG00000010357	ENSSCUP00000014063	ENSSCUT00000018459	1529	4590	True	True	False	PASS	
+myripristis_murdjan	586833	ENSMMDG00005007871	ENSMMDP00005015413	ENSMMDT00005015828	1297	3894	True	True	False	PASS	
+paramormyrops_kingsleyae	1676925	ENSPKIG00000020221	ENSPKIP00000002249	ENSPKIT00000026192	1357	4074	True	True	False	PASS	
+ficedula_albicollis	59894	ENSFALG00000008513	ENSFALP00000008899	ENSFALT00000008937	1524	4575	True	True	False	PASS	
+aquila_chrysaetos_chrysaetos	223781	ENSACCG00020013018	ENSACCP00020018965	ENSACCT00020019798	1530	4593	True	True	False	PASS	
+cynoglossus_semilaevis	244447	ENSCSEG00000000836	ENSCSEP00000001204	ENSCSET00000001233	1348	4047	True	True	False	PASS	
+hippocampus_comes	109280	ENSHCOG00000017943	ENSHCOP00000014511	ENSHCOT00000027713	1267	3804	True	True	False	PASS	
+betta_splendens	158456	ENSBSLG00000000664	ENSBSLP00000001318	ENSBSLT00000001644	1348	4047	True	True	False	PASS	
+sander_lucioperca	283035	ENSSLUG00000025934	ENSSLUP00000060899	ENSSLUT00000062615	1340	4023	True	True	False	PASS	
+oncorhynchus_tshawytscha	74940	ENSOTSG00005059788	ENSOTSP00005151208							FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/lookup/id/ENSOTSG00005059788?expand=1
+podarcis_muralis	64176	ENSPMRG00000003287	ENSPMRP00000005292	ENSPMRT00000005642						FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/sequence/id/ENSPMRT00000005642?type=cds
+labrus_bergylta	56723	ENSLBEG00000006266	ENSLBEP00000008182							FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/lookup/id/ENSLBEG00000006266?expand=1
+poecilia_formosa	48698	ENSPFOG00000014876	ENSPFOP00000015073	ENSPFOT00000015095						FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/sequence/id/ENSPFOT00000015095?type=cds
+poecilia_latipinna	48699	ENSPLAG00000011499	ENSPLAP00000024892	ENSPLAT00000002236	862	2589	True	True	False	PASS	
+kryptolebias_marmoratus	37003	ENSKMAG00000003095	ENSKMAP00000004086	ENSKMAT00000004164	782	2349	True	True	False	PASS	
+acanthochromis_polyacanthus	80966	ENSAPOG00000021619	ENSAPOP00000033170							FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/lookup/id/ENSAPOG00000021619?expand=1
+tetraodon_nigroviridis	99883	ENSTNIG00000010614	ENSTNIP00000002634							FAIL	503 Server Error: Service Unavailable for url: https://rest.ensembl.org/lookup/id/ENSTNIG00000010614?expand=1
+anabas_testudineus	64144	ENSATEG00000015756	ENSATEP00000061848	ENSATET00000058792						FAIL	HTTPSConnectionPool(host='rest.ensembl.org', port=443): Read timed out. (read timeout=60)
+strigops_habroptila	2489341	ENSSHBG00005002410	ENSSHBP00005004026							FAIL	500 Server Error: Internal Server Error for url: https://rest.ensembl.org/lookup/id/ENSSHBG00005002410?expand=1
+gopherus_evgoodei	1825980	ENSGEVG00005004958	ENSGEVP00005007083	ENSGEVT00005007425	1422	4269	True	True	False	PASS	
+salvator_merianae	96440	ENSSMRG00000005667	ENSSMRP00000007007	ENSSMRT00000008208	1424	4275	True	True	False	PASS	

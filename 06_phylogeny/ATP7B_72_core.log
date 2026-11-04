@@ -1,0 +1,251 @@
+IQ-TREE version 3.1.3 for Linux x86 64-bit built Jul 26 2026
+Developed by Bui Quang Minh, Thomas Wong, Nhan Ly-Trong, Huaiyan Ren
+Contributed by Lam-Tung Nguyen, Dominik Schrempf, Chris Bielow,
+Olga Chernomor, Michael Woodhams, Diep Thi Hoang, Heiko Schmidt
+
+Host:    hp (AVX2, FMA3, 15 GB RAM)
+Command: iqtree -s 04_protein_alignment/ATP7B_72_core_aligned.fasta -m MFP -B 1000 --alrt 1000 -bnni -T AUTO --seed 12345 --prefix 06_phylogeny/ATP7B_72_core
+Seed:    12345 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Nov  4 13:27:35 2026
+Kernel:  AVX+FMA - auto-detect threads (24 CPU cores detected)
+
+Reading alignment file 04_protein_alignment/ATP7B_72_core_aligned.fasta ... Fasta format detected
+Reading fasta file: done in 0.00496602 secs using 58.2% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.0056901 secs using 12.13% CPU
+Alignment has 72 sequences with 1770 columns, 1528 distinct patterns
+1020 parsimony-informative, 279 singleton sites, 471 constant sites
+                                                     Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000379086 secs using 135.9% CPU
+   1  amphiprion_ocellaris|ENSAOCP00000010720               26.72%    passed     20.04%
+   2  anas_platyrhynchos_platyrhynchos|ENSAPLP00000005964   23.73%    passed     99.57%
+   3  anolis_carolinensis|ENSACAP00000016613                16.72%    passed     47.88%
+   4  anser_brachyrhynchus|ENSABRP00000005923               18.25%    passed     97.83%
+   5  aotus_nancymaae|ENSANAP00000004474                    17.34%    passed    100.00%
+   6  aquila_chrysaetos_chrysaetos|ENSACCP00020018965       16.44%    passed     98.42%
+   7  astatotilapia_calliptera|ENSACLP00000016868           25.82%    passed     99.35%
+   8  betta_splendens|ENSBSLP00000001318                    25.65%    passed     98.47%
+   9  bos_mutus|ENSBMUP00000009141                          24.12%    passed     97.76%
+  10  callithrix_jacchus|ENSCJAP00000015472                 13.67%    passed     99.99%
+  11  callorhinchus_milii|ENSCMIP00000044424                14.92%    passed     20.61%
+  12  camelus_dromedarius|ENSCDRP00005031690                16.78%    passed     81.57%
+  13  canis_lupus_dingo|ENSCAFP00020000624                  19.66%    passed     98.72%
+  14  cavia_porcellus|ENSCPOP00000001483                    19.66%    passed     99.92%
+  15  ciona_savignyi|ENSCSAVP00000013525                    25.20%    passed     24.47%
+  16  clupea_harengus|ENSCHAP00020055138                    21.13%    passed     71.54%
+  17  cricetulus_griseus_picr|ENSCGRP00015054363            17.23%    passed     99.81%
+  18  crocodylus_porosus|ENSCPRP00005004438                 19.77%    passed     54.96%
+  19  cynoglossus_semilaevis|ENSCSEP00000001204             25.54%    passed     99.83%
+  20  danio_rerio|ENSDARP00000126297                        24.86%    passed     89.50%
+  21  delphinapterus_leucas|ENSDLEP00000023641              20.06%    passed     99.06%
+  22  denticeps_clupeoides|ENSDCDP00010027201               25.14%    passed     52.84%
+  23  echinops_telfairi|ENSETEP00000015180                  46.21%    passed     59.14%
+  24  erinaceus_europaeus|ENSEEUP00000004915                31.64%    passed     98.89%
+  25  ficedula_albicollis|ENSFALP00000008899                16.78%    passed     74.30%
+  26  gopherus_evgoodei|ENSGEVP00005007083                  19.66%    passed     57.51%
+  27  sp|P35670|ATP7B_HUMAN                                 17.23%    passed    100.00%
+  28  ictalurus_punctatus|ENSIPUP00015020926                19.44%    passed     57.64%
+  29  lates_calcarifer|ENSLCAP00010023921                   25.31%    passed     90.24%
+  30  laticauda_laticaudata|ENSLLTP00000019863              21.86%    passed      9.89%
+  31  latimeria_chalumnae|ENSLACP00000006369                19.27%    failed      0.55%
+  32  loxodonta_africana|ENSLAFP00000010415                 17.23%    passed     97.76%
+  33  macaca_mulatta|ENSMMUP00000056345                     16.61%    passed    100.00%
+  34  macaca_nemestrina|ENSMNEP00000012748                  17.23%    passed    100.00%
+  35  marmota_marmota_marmota|ENSMMMP00000026137            23.56%    passed     99.30%
+  36  microcebus_murinus|ENSMICP00000021513                 17.46%    passed     99.26%
+  37  monodelphis_domestica|ENSMODP00000033101              16.44%    passed     80.49%
+  38  monodon_monoceros|ENSMMNP00015023068                  17.74%    passed     97.44%
+  39  mus_musculus|ENSMUSP00000006742                       18.14%    passed    100.00%
+  40  mus_pahari|MGP_PahariEiJ_P0046813                     17.80%    passed    100.00%
+  41  mus_spretus|ENSMSPP00010014391                        18.14%    passed    100.00%
+  42  mustela_putorius_furo|ENSMPUP00000017890              18.81%    passed     99.95%
+  43  naja_naja|ENSNNAP00000014555                          18.93%    passed     41.31%
+  44  nannospalax_galili|ENSNGAP00000003948                 17.74%    passed     99.98%
+  45  nomascus_leucogenys|ENSNLEP00000045526                19.77%    passed     99.92%
+  46  notamacropus_eugenii|ENSMEUP00000011187               23.39%    passed     70.38%
+  47  ochotona_princeps|ENSOPRP00000012256                  18.19%    passed    100.00%
+  48  oreochromis_niloticus|ENSONIP00000047349              25.82%    passed     96.82%
+  49  oryctolagus_cuniculus|ENSOCUP00000043559              17.23%    passed     99.99%
+  50  oryzias_sinensis|ENSOSIP00000051058                   27.68%    passed     87.37%
+  51  otolemur_garnettii|ENSOGAP00000005981                 18.42%    passed     97.44%
+  52  pan_paniscus|ENSPPAP00000021635                       17.80%    passed    100.00%
+  53  pan_troglodytes|ENSPTRP00000010023                    17.23%    passed    100.00%
+  54  papio_anubis|ENSPANP00000005895                       17.23%    passed    100.00%
+  55  paramormyrops_kingsleyae|ENSPKIP00000002249           25.76%    passed      7.94%
+  56  parus_major|ENSPMJP00000020036                        14.41%    passed     70.25%
+  57  poecilia_reticulata|ENSPREP00000023366                27.51%    passed     96.72%
+  58  pongo_abelii|ENSPPYP00000040034                       16.84%    passed     99.99%
+  59  pseudonaja_textilis|ENSPTXP00000008251                19.44%    passed     23.78%
+  60  pteropus_vampyrus|ENSPVAP00000009096                  28.42%    passed     99.40%
+  61  pygocentrus_nattereri|ENSPNAP00000069670              18.70%    passed     23.36%
+  62  rhinolophus_ferrumequinum|ENSRFEP00010029278          16.67%    passed     98.55%
+  63  saimiri_boliviensis_boliviensis|ENSSBOP00000005266    17.23%    passed    100.00%
+  64  salvator_merianae|ENSSMRP00000007007                  19.55%    passed     85.49%
+  65  sander_lucioperca|ENSSLUP00000060899                  26.05%    passed     90.75%
+  66  scleropages_formosus|ENSSFOP00015039450               17.74%    failed      0.00%
+  67  seriola_lalandi_dorsalis|ENSSLDP00000010772           25.99%    passed     98.65%
+  68  struthio_camelus_australis|ENSSCUP00000014063         16.50%    passed     92.32%
+  69  taeniopygia_guttata|ENSTGUP00000012431                16.44%    passed     56.70%
+  70  ursus_maritimus|ENSUMAP00000026459                    17.23%    passed     99.98%
+  71  vombatus_ursinus|ENSVURP00010023200                   25.99%    passed     45.02%
+  72  xenopus_tropicalis|ENSXETP00000066457                 17.12%    passed     35.73%
+****  TOTAL                                                 20.58%  2 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 0.000900984 secs using 38.62% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.047 seconds
+Measuring multi-threading efficiency up to 24 CPU cores
+Increase to 10 rounds for branch lengths
+15 trees examined
+Threads: 1 / Time: 25.629 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -92239
+Threads: 2 / Time: 13.553 sec / Speedup: 1.891 / Efficiency: 95% / LogL: -92239
+Threads: 3 / Time: 9.398 sec / Speedup: 2.727 / Efficiency: 91% / LogL: -92239
+Threads: 4 / Time: 7.376 sec / Speedup: 3.475 / Efficiency: 87% / LogL: -92239
+Threads: 5 / Time: 6.225 sec / Speedup: 4.117 / Efficiency: 82% / LogL: -92239
+Threads: 6 / Time: 5.375 sec / Speedup: 4.768 / Efficiency: 79% / LogL: -92239
+Threads: 7 / Time: 4.871 sec / Speedup: 5.261 / Efficiency: 75% / LogL: -92239
+Threads: 8 / Time: 4.730 sec / Speedup: 5.419 / Efficiency: 68% / LogL: -92239
+Threads: 9 / Time: 4.935 sec / Speedup: 5.193 / Efficiency: 58% / LogL: -92239
+Threads: 10 / Time: 5.189 sec / Speedup: 4.939 / Efficiency: 49% / LogL: -92239
+Determining AUTO threadcount: done in 87.3125 secs using 329.7% CPU
+BEST NUMBER OF THREADS: 7
+
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -63322.556
+Optimal log-likelihood: -63322.383
+Proportion of invariable sites: 0.121
+Gamma shape alpha: 0.761
+Parameters optimization took 1 rounds (0.136 sec)
+Time for fast ML tree search: 1.051 seconds
+
+NOTE: ModelFinder requires 178 MB RAM!
+ModelFinder will test up to 1232 protein models (sample size: 1770 epsilon: 0.100) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Akaike Information Criterion:           Q.MAMMAL+I+R6
+Corrected Akaike Information Criterion: Q.MAMMAL+I+R6
+Bayesian Information Criterion:         Q.MAMMAL+I+R5
+Best-fit model: Q.MAMMAL+I+R5 chosen according to BIC
+
+All model information printed to 06_phylogeny/ATP7B_72_core.model.gz
+CPU time for ModelFinder: 4901.354 seconds (1h:21m:41s)
+Wall-clock time for ModelFinder: 807.715 seconds (0h:13m:27s)
+Generating 1000 samples for ultrafast bootstrap (seed: 12345)...
+
+NOTE: 91 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -61606.363
+2. Current log-likelihood: -61579.184
+3. Current log-likelihood: -61577.636
+4. Current log-likelihood: -61577.065
+5. Current log-likelihood: -61576.712
+6. Current log-likelihood: -61576.437
+7. Current log-likelihood: -61576.203
+8. Current log-likelihood: -61575.995
+9. Current log-likelihood: -61575.810
+10. Current log-likelihood: -61575.655
+11. Current log-likelihood: -61575.528
+12. Current log-likelihood: -61575.426
+Optimal log-likelihood: -61575.340
+Proportion of invariable sites: 0.090
+Site proportion and rates:  (0.252,0.072) (0.227,0.402) (0.220,1.140) (0.166,2.547) (0.045,4.812)
+Parameters optimization took 12 rounds (6.014 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0565209 secs using 680.2% CPU
+Computing ML distances took 0.056782 sec (of wall-clock time) 0.385786 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000418901 secs using 109.3% CPU
+Constructing RapidNJ tree: done in 0.00488997 secs using 132.4% CPU
+Computing RapidNJ tree took 0.005546 sec (of wall-clock time) 0.006971 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -61777.374
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.662 second
+Computing log-likelihood of 98 initial trees ... 4.919 seconds
+Current best score: -61575.340
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -61574.368
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 9: -61570.583
+Iteration 10 / LogL: -61576.519 / Time: 0h:13m:52s
+Iteration 20 / LogL: -61572.164 / Time: 0h:14m:3s
+Finish initializing candidate tree set (7)
+Current best tree score: -61570.583 / CPU time: 29.228
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -61570.371
+Iteration 30 / LogL: -61570.611 / Time: 0h:14m:14s (0h:2m:6s left)
+Iteration 40 / LogL: -61582.433 / Time: 0h:14m:24s (0h:1m:40s left)
+Iteration 50 / LogL: -61571.679 / Time: 0h:14m:34s (0h:1m:20s left)
+Iteration 60 / LogL: -61573.735 / Time: 0h:14m:44s (0h:1m:3s left)
+Iteration 70 / LogL: -61570.446 / Time: 0h:14m:53s (0h:0m:48s left)
+Iteration 80 / LogL: -61570.543 / Time: 0h:15m:3s (0h:0m:35s left)
+Iteration 90 / LogL: -61573.190 / Time: 0h:15m:13s (0h:0m:22s left)
+Iteration 100 / LogL: -61570.477 / Time: 0h:15m:23s (0h:0m:10s left)
+Iteration 110 / LogL: -61570.662 / Time: 0h:15m:33s (0h:0m:-2s left)
+Refining ufboot trees with NNI 1 branch...
+100 samples done
+200 samples done
+300 samples done
+400 samples done
+500 samples done
+600 samples done
+700 samples done
+800 samples done
+900 samples done
+1000 samples done
+Total 971 ufboot trees refined
+TREE SEARCH COMPLETED AFTER 110 ITERATIONS / Time: 0h:18m:39s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -61570.371
+Optimal log-likelihood: -61570.363
+Proportion of invariable sites: 0.091
+Site proportion and rates:  (0.255,0.073) (0.230,0.413) (0.223,1.177) (0.168,2.663) (0.034,5.289)
+Parameters optimization took 1 rounds (0.308 sec)
+BEST SCORE FOUND : -61570.363
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.467 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file 06_phylogeny/ATP7B_72_core.splits.nex
+Total tree length: 14.312
+
+Total number of iterations: 110
+CPU time used for tree search: 1688.720 sec (0h:28m:8s)
+Wall-clock time used for tree search: 304.792 sec (0h:5m:4s)
+Total CPU time used: 6637.451 sec (1h:50m:37s)
+Total wall-clock time used: 1120.162 sec (0h:18m:40s)
+UFBoot trees printed to 06_phylogeny/ATP7B_72_core.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file 06_phylogeny/ATP7B_72_core.splits.nex...
+72 taxa and 251 splits.
+Consensus tree written to 06_phylogeny/ATP7B_72_core.contree
+Reading input trees file 06_phylogeny/ATP7B_72_core.contree
+Log-likelihood of consensus tree: -61570.362
+
+Analysis results written to: 
+  IQ-TREE report:                06_phylogeny/ATP7B_72_core.iqtree
+  Maximum-likelihood tree:       06_phylogeny/ATP7B_72_core.treefile
+  Likelihood distances:          06_phylogeny/ATP7B_72_core.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          06_phylogeny/ATP7B_72_core.splits.nex
+  Consensus tree:                06_phylogeny/ATP7B_72_core.contree
+  UFBoot trees:                  06_phylogeny/ATP7B_72_core.ufboot
+  Screen log file:               06_phylogeny/ATP7B_72_core.log
+
+Date and Time: Wed Nov  4 13:46:16 2026

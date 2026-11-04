@@ -1,0 +1,11 @@
+astyanax_mexicanus_ATP7B.fasta	1195 aa
+eptatretus_burgeri_ATP7B.fasta	885 aa
+gasterosteus_aculeatus_ATP7B.fasta	1293 aa
+hippocampus_comes_ATP7B.fasta	1267 aa
+kryptolebias_marmoratus_ATP7B.fasta	782 aa
+myripristis_murdjan_ATP7B.fasta	1297 aa
+poecilia_latipinna_ATP7B.fasta	862 aa
+procavia_capensis_ATP7B.fasta	1028 aa
+pundamilia_nyererei_ATP7B.fasta	1294 aa
+sus_scrofa_ATP7B.fasta	1032 aa
+xiphophorus_couchianus_ATP7B.fasta	258 aa

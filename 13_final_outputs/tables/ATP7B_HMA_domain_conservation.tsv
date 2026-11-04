@@ -1,0 +1,7 @@
+Domain	Human_Start	Human_End	Positions_Analysed	Mean_Conservation_Percent	Highly_Conserved_Positions_GE90	Fully_Conserved_Positions
+HMA1	58	124	67	66.47	5	0
+HMA2	143	209	67	75.98	18	7
+HMA3	257	323	67	73.25	17	0
+HMA4	359	425	67	73.1	23	2
+HMA5	488	554	67	80.87	31	0
+HMA6	564	630	67	82.81	36	0
